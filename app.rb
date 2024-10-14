@@ -10,3 +10,16 @@ require_relative 'lib/event'
 
 # Maintenant c'est open bar pour tester ton application. Tous les fichiers importants sont chargés
 # Tu peux faire User.new, Event.new, binding.pry, User.all, etc.
+
+
+
+julie = User.new("julie@julie.com",25)
+jean = User.new("jean@jean.com",32)
+
+# puts User.all
+# puts Time.now.strftime("%H:%M:%S %d/%m/%Y")
+
+# even1=Event.new("2019-01-13 09:00", 10, "standup quotidien", ["truc@machin.com", "bidule@chose.fr"])
+# even1.to_s
+
+# puts User.find_by_email("julie@julie.com").age
